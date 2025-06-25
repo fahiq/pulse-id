@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import { Poppins } from 'next/font/google';
 import { ThemeProvider } from './components/themeContext'; 
-// import DarkModeToggle from './components/darkModeToggle';
+
 
 
 const geistSans = Geist({
