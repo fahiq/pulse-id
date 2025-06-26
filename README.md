@@ -6,8 +6,8 @@ This project was built as part of a technical assignment for a Lead UI/UX Front-
 
 ## 🚀 Live Demo
 
-👉 [View Live Project]([https://your-vercel-url.vercel.app](https://pulse-9s0slzb40-fahiqs-projects.vercel.app/))  
-(*Replace with your actual deployed Vercel URL*)
+👉 [View Live Project]
+(https://pulse-9s0slzb40-fahiqs-projects.vercel.app/)
 
 ---
 
