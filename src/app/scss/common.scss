@@ -167,8 +167,7 @@
 
 
 
-//carousal
-
+//infinity 3d carousal
 .carousel3d-wrapper {
     position: relative;
     height: 385px;
@@ -378,6 +377,11 @@
         color: #333;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         cursor: pointer;
+        img{
+            width: 6px;
+            height: 13px;
+            margin-bottom: 3px;
+        }
     }
 
     .city-title {
@@ -529,6 +533,29 @@
                 display: block;
                 object-fit: cover;
                 border-radius: 12px;
+            }
+
+            .offer-logo {
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+
+                img {
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                }
+
+                .offer-title {
+                    margin-left: 10px;
+                    margin-top: 8px;
+                    h4{
+                        font-size: 14px;
+                        color: #fff;
+                    }
+                   
+                    
+                }
             }
         }
 

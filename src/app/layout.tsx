@@ -9,7 +9,6 @@ import { Poppins } from 'next/font/google';
 import { ThemeProvider } from './components/themeContext'; 
 
 
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -39,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${poppins.className}`}>
-        <ThemeProvider> {/* ✅ Wrap children with ThemeProvider */}
+        <ThemeProvider> 
           {children}
         </ThemeProvider>
       </body>

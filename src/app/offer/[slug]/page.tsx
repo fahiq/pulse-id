@@ -55,7 +55,9 @@ export default function OfferDetail({ params }: { params: { slug: string } }) {
           />
         )}
 
-        <button className="go-back-button" onClick={() => router.back()}>←</button>
+        <button className="go-back-button" onClick={() => router.back()}>
+        <Image src="/images/chevron-back.png" alt="back" width={6} height={13} />
+        </button>
         <button className="heart-button">♡</button>
         <h1 className="offer-title">Dessert</h1>
       </div>

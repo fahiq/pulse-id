@@ -44,7 +44,7 @@ export default function CityOfferLanding() {
         <Image src="/images/sub-header.jpg" alt="Header" width={500} height={161} />
 
         <button className="go-back-button" onClick={() => router.back()}>
-          ←
+        <Image src="/images/chevron-back.png" alt="back" width={6} height={13} />
         </button>
 
         <div className='city-title'>{city}</div>
@@ -94,12 +94,17 @@ export default function CityOfferLanding() {
             <Link href={`/offer/${slug}`} key={index} className="offer-card-link">
               <div className="offer-card">
                 <div className="offer-image">
+                  <div className='offer-logo d-flex'>
+                  <Image src="/images/offer-logo.jpg" alt="logo" width={30} height={30} />
+                  <div className='offer-title ml-2'>
+                  <h4>{offer.name}</h4>
+                  </div>
+                  </div>
                   <Image src={offer.image} alt={offer.name} width={500} height={500} />
                   <span className="heart-icon">♡</span>
              
                 </div>
                 <div className="offer-info">
-                  <h4>{offer.name}</h4>
                   <p>Get 10% discount with card</p>
                   <div className="tags">
                     {offer.tags.map((tag, i) => (
