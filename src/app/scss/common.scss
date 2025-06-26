@@ -377,7 +377,8 @@
         color: #333;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         cursor: pointer;
-        img{
+
+        img {
             width: 6px;
             height: 13px;
             margin-bottom: 3px;
@@ -549,12 +550,13 @@
                 .offer-title {
                     margin-left: 10px;
                     margin-top: 8px;
-                    h4{
+
+                    h4 {
                         font-size: 14px;
                         color: #fff;
                     }
-                   
-                    
+
+
                 }
             }
         }
@@ -828,20 +830,23 @@
 
 //dark light mode
 
-:root {
-    --bg-color: #ffffff;
-    --text-color: #000000;
-    --card-color: #f0f0f0;
-}
-
-[data-theme='dark'] {
-    --bg-color: #121212;
-    --text-color: #ffffff;
-    --card-color: #ffffff;
-}
-
 body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: white;
+    color: black;
+}
+
+/* dark mode */
+html.dark body {
+    background-color: #121212;
+    color: white;
+
+    .title-14x {
+        color: #fff;
+    }
+    .country-item span{
+        color: #fff;
+    }
+    .text-dark {
+        color: #fff !important;
+    }
 }

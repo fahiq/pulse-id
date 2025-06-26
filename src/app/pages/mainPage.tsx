@@ -3,10 +3,9 @@ import { useEffect, useState } from 'react';
 import '../scss/common.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image';
-// import VideoCarousel from '../components/infinitCarousal';
 import CountryList from '../components/flatList';
 import Carousel3D from '../components/infinitCarousal';
-// import { ThemeProvider } from '../components/themeContext';
+import { ThemeProvider } from '../components/themeContext';
 import DarkModeToggle from '../components/DarkModeToggle';
 
 
