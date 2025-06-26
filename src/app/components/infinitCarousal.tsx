@@ -65,7 +65,7 @@ export default function Carousel3D() {
               />
               <div className="carousel3d-gradient"></div>
               <div className="carousel3d-overlay">
-              <img src="/images/image.png" className="carousel3d-logo" alt="logo" width={40} height={30} />
+                <img src="/images/image.png" className="carousel3d-logo" alt="logo" width={40} height={30} />
                 <button className="carousel3d-close">×</button>
               </div>
               <div className="carousel3d-content">
@@ -78,7 +78,14 @@ export default function Carousel3D() {
                       <span className="star">⭐ {video.rating}</span>
                       <span>{video.reviews}</span>
                     </div>
-                    <button className="carousel3d-cta">See more →</button>
+                    <button className="carousel3d-cta">
+                      <div className='btn-left-group'>
+                        See more
+                      </div>
+                      <div className='btn-right-group'>
+                        <img src="/images/btn-circle.png" className="carousel3d-logo" alt="logo" width={40} height={30} />
+                      </div>
+                    </button>
                   </>
                 )}
               </div>

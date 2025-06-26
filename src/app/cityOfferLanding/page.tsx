@@ -1,4 +1,5 @@
 'use client';
+export const dynamic = 'force-dynamic'; 
 import '../scss/common.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image';
@@ -55,13 +56,13 @@ export default function CityOfferLanding() {
         <h2 className="section-heading">Special Offers!</h2>
         <div className="offer-banner">
           <div className="offer-left">
-            <p className="brand-name">SK-II</p>
+            <p className="brand-name"><Image src="/images/sk-2.png" alt="Model" width={20} height={20} /> SK-II </p>
             <div className="offer-text mb-1">Get Special Offer</div>
             <p className="discount-text">Up to 9% discount</p>
             <button className="btn-view-more">View More</button>
           </div>
           <div className="offer-right">
-            <Image src="/images/model.png" alt="Model" width={80} height={80} />
+            <Image src="/images/modal.png" alt="Modal" width={200} height={250} />
           </div>
         </div>
         <div className="carousel-dots">
