@@ -36,7 +36,7 @@ export default function MainPage() {
               <div className='user-greeting'>Welcome</div>
             </div>
             <div className='user-avatar'>
-              <Image src="/images/avatar.png" alt="profile" width={36} height={36} />
+              <Image src="/images/Avatar.png" alt="profile" width={36} height={36} />
             </div>
           </div>
         </div>

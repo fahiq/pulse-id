@@ -26,7 +26,7 @@ export default function CityOfferLanding() {
       tags: ["Retail", "Exclusive"],
     },
     {
-      image: "/images/shiseido.jpg",
+      image: "/images/Shiseido.jpg",
       name: "Shiseido",
       tags: ["Beauty", "Exclusive"],
     },
